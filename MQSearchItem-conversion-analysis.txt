@@ -1,0 +1,55 @@
+﻿================================================================
+VCXPROJ TO CMAKE CONVERSION ANALYSIS
+================================================================
+Project: MQSearchItem
+Source: G:\Macroquest\src\plugins\MQSearchItem\MQSearchItem.vcxproj
+Generated: 2026-04-22 15:28:03
+
+================================================================
+SUCCESSFULLY CONVERTED
+================================================================
++ Source files: 1
++ Header files: 1
++ Other files: 2
++ Compiler/linker settings extracted
++ Project references: 1
++ Pre-build events: 1
+
+================================================================
+PARTIALLY CONVERTED (May Need Manual Adjustment)
+================================================================
+(none)
+
+================================================================
+NOT CONVERTED (Requires Manual Implementation)
+================================================================
+(none)
+
+================================================================
+WARNINGS
+================================================================
+(none)
+
+================================================================
+PROPS FILES DETECTED
+================================================================
+  - $([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), src\Plugin.props))\src\Plugin.props
+
+================================================================
+SUMMARY
+================================================================
+Total source files: 1
+Excluded files: 0
+Project references: 1
+Configurations with definitions: 0
+Configurations with linker options: 0
+Props files found: 1
+
+================================================================
+NEXT STEPS
+================================================================
+1. Review the generated CMakeLists.txt file
+2. Test build with all configurations
+3. Address items in NOT CONVERTED section
+4. Verify preprocessor definitions match vcxproj
+5. Check that all dependencies are linked correctly
